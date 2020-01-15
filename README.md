@@ -2,7 +2,7 @@
 
 Reads Real IP from request and saves in context.
 
-We use [realip](github.com/tomasen/realip) to find the client's real IP, then
+We use [realip](https://github.com/tomasen/realip) to find the client's real IP, then
 we save it to context. That allow us to get the client's IP in app code that
 doesn't have access to the request, only the context.
 
